@@ -1,3 +1,9 @@
 #!/bin/bash
 
-python3 logger.py --bind 0.0.0.0 --port 9999 --expect 10
+python3 peer_node.py \
+	  --name A --listen 0.0.0.0 5000 \
+	  --peers A@192.168.122.204:5000 B@192.168.122.150:5001 C@localhost:5002 D@192.168.122.234:5003 \ 
+	  --logger 192.168.122.100 9999 \
+	  --offset-ms 600 \
+	  --initiate-broadcast --msg "Hello from A"
+
