@@ -1,0 +1,54 @@
+================ TRACE (last 20 events) ================
+-- Physical order --
+t=1763811628.369346 L=  1 V=[0, 1, 0, 0, 0] node=2 MUTEX_REQ color
+t=1763811628.371916 L=  1 V=[0, 1, 0, 0, 0] node=2 MUTEX_GOT color
+t=1763811628.372088 L=  2 V=[0, 2, 0, 0, 0] node=2 APPLY_LOCAL color=red
+t=1763811628.372422 L=  3 V=[0, 3, 0, 0, 0] node=2 REPL_SEND color=red
+t=1763811628.373655 L=  4 V=[1, 3, 0, 0, 0] node=1 REPL_RECV color=red
+t=1763811628.374811 L=  4 V=[0, 3, 1, 0, 0] node=3 REPL_RECV color=red
+t=1763811628.375677 L=  4 V=[0, 3, 0, 1, 0] node=4 REPL_RECV color=red
+t=1763811628.376405 L=  4 V=[0, 4, 0, 0, 0] node=2 MUTEX_REL color
+t=1763811628.377004 L=  4 V=[0, 3, 0, 0, 1] node=5 REPL_RECV color=red
+t=1763811628.413954 L=  5 V=[0, 3, 2, 0, 0] node=3 MUTEX_REQ color
+t=1763811628.414990 L=  5 V=[0, 3, 2, 0, 0] node=3 MUTEX_GOT color
+t=1763811628.415235 L=  6 V=[0, 3, 3, 0, 0] node=3 APPLY_LOCAL color=blue
+t=1763811628.415586 L=  7 V=[0, 3, 4, 0, 0] node=3 REPL_SEND color=blue
+t=1763811628.416525 L=  8 V=[2, 3, 4, 0, 0] node=1 REPL_RECV color=blue
+t=1763811628.417259 L=  8 V=[0, 5, 4, 0, 0] node=2 REPL_RECV color=blue
+t=1763811628.418028 L=  8 V=[0, 3, 4, 2, 0] node=4 REPL_RECV color=blue
+t=1763811628.418769 L=  8 V=[0, 3, 4, 0, 2] node=5 REPL_RECV color=blue
+t=1763811628.419459 L=  8 V=[0, 3, 5, 0, 0] node=3 MUTEX_REL color
+t=1763811628.452766 L=  9 V=[0, 3, 6, 0, 0] node=3 GET color
+t=1763811628.484492 L=  9 V=[3, 3, 4, 0, 0] node=1 GET color
+-- Lamport order --
+L=  1 t=1763811628.369346 V=[0, 1, 0, 0, 0] node=2 MUTEX_REQ color
+L=  1 t=1763811628.371916 V=[0, 1, 0, 0, 0] node=2 MUTEX_GOT color
+L=  2 t=1763811628.372088 V=[0, 2, 0, 0, 0] node=2 APPLY_LOCAL color=red
+L=  3 t=1763811628.372422 V=[0, 3, 0, 0, 0] node=2 REPL_SEND color=red
+L=  4 t=1763811628.373655 V=[1, 3, 0, 0, 0] node=1 REPL_RECV color=red
+L=  4 t=1763811628.376405 V=[0, 4, 0, 0, 0] node=2 MUTEX_REL color
+L=  4 t=1763811628.374811 V=[0, 3, 1, 0, 0] node=3 REPL_RECV color=red
+L=  4 t=1763811628.375677 V=[0, 3, 0, 1, 0] node=4 REPL_RECV color=red
+L=  4 t=1763811628.377004 V=[0, 3, 0, 0, 1] node=5 REPL_RECV color=red
+L=  5 t=1763811628.413954 V=[0, 3, 2, 0, 0] node=3 MUTEX_REQ color
+L=  5 t=1763811628.414990 V=[0, 3, 2, 0, 0] node=3 MUTEX_GOT color
+L=  6 t=1763811628.415235 V=[0, 3, 3, 0, 0] node=3 APPLY_LOCAL color=blue
+L=  7 t=1763811628.415586 V=[0, 3, 4, 0, 0] node=3 REPL_SEND color=blue
+L=  8 t=1763811628.416525 V=[2, 3, 4, 0, 0] node=1 REPL_RECV color=blue
+L=  8 t=1763811628.417259 V=[0, 5, 4, 0, 0] node=2 REPL_RECV color=blue
+L=  8 t=1763811628.419459 V=[0, 3, 5, 0, 0] node=3 MUTEX_REL color
+L=  8 t=1763811628.418028 V=[0, 3, 4, 2, 0] node=4 REPL_RECV color=blue
+L=  8 t=1763811628.418769 V=[0, 3, 4, 0, 2] node=5 REPL_RECV color=blue
+L=  9 t=1763811628.484492 V=[3, 3, 4, 0, 0] node=1 GET color
+L=  9 t=1763811628.452766 V=[0, 3, 6, 0, 0] node=3 GET color
+-- Vector partial order (layers of concurrent sets) --
+Layer 1: n2:MUTEX_REQ:color@[0, 1, 0, 0, 0], n2:MUTEX_GOT:color@[0, 1, 0, 0, 0]
+Layer 2: n2:APPLY_LOCAL:color=red@[0, 2, 0, 0, 0]
+Layer 3: n2:REPL_SEND:color=red@[0, 3, 0, 0, 0]
+Layer 4: n4:REPL_RECV:color=red@[0, 3, 0, 1, 0], n2:MUTEX_REL:color@[0, 4, 0, 0, 0], n1:REPL_RECV:color=red@[1, 3, 0, 0, 0], n3:REPL_RECV:color=red@[0, 3, 1, 0, 0], n5:REPL_RECV:color=red@[0, 3, 0, 0, 1]
+Layer 5: n3:MUTEX_REQ:color@[0, 3, 2, 0, 0], n3:MUTEX_GOT:color@[0, 3, 2, 0, 0]
+Layer 6: n3:APPLY_LOCAL:color=blue@[0, 3, 3, 0, 0]
+Layer 7: n3:REPL_SEND:color=blue@[0, 3, 4, 0, 0]
+Layer 8: n1:REPL_RECV:color=blue@[2, 3, 4, 0, 0], n2:REPL_RECV:color=blue@[0, 5, 4, 0, 0], n4:REPL_RECV:color=blue@[0, 3, 4, 2, 0], n5:REPL_RECV:color=blue@[0, 3, 4, 0, 2], n3:MUTEX_REL:color@[0, 3, 5, 0, 0]
+Layer 9: n3:GET:color@[0, 3, 6, 0, 0], n1:GET:color@[3, 3, 4, 0, 0]
+======================================================

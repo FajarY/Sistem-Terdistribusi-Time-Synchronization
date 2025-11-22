@@ -1,0 +1,83 @@
+================ TRACE (last 33 events) ================
+-- Physical order --
+t=1763810756.577506 L=  1 V=[0, 1, 0, 0, 0] node=2 MUTEX_REQ color
+t=1763810756.579908 L=  1 V=[0, 1, 0, 0, 0] node=2 MUTEX_GOT color
+t=1763810756.580139 L=  2 V=[0, 2, 0, 0, 0] node=2 APPLY_LOCAL color=blue
+t=1763810756.580442 L=  3 V=[0, 3, 0, 0, 0] node=2 REPL_SEND color=blue
+t=1763810756.581769 L=  4 V=[1, 3, 0, 0, 0] node=1 REPL_RECV color=blue
+t=1763810756.582694 L=  4 V=[0, 3, 1, 0, 0] node=3 REPL_RECV color=blue
+t=1763810756.583645 L=  4 V=[0, 3, 0, 1, 0] node=4 REPL_RECV color=blue
+t=1763810756.585742 L=  4 V=[0, 3, 0, 0, 1] node=5 REPL_RECV color=blue
+t=1763810756.586184 L=  4 V=[0, 4, 0, 0, 0] node=2 MUTEX_REL color
+t=1763810756.622698 L=  5 V=[0, 3, 2, 0, 0] node=3 GET color
+t=1763810756.656956 L=  5 V=[0, 5, 0, 0, 0] node=2 MUTEX_REQ color
+t=1763810756.657063 L=  5 V=[2, 3, 0, 0, 0] node=1 MUTEX_REQ color
+t=1763810756.658704 L=  5 V=[0, 5, 0, 0, 0] node=2 MUTEX_GOT color
+t=1763810756.658995 L=  6 V=[0, 6, 0, 0, 0] node=2 APPLY_LOCAL color=red
+t=1763810756.659265 L=  7 V=[0, 7, 0, 0, 0] node=2 REPL_SEND color=red
+t=1763810756.660421 L=  8 V=[3, 7, 0, 0, 0] node=1 REPL_RECV color=red
+t=1763810756.660756 L=  8 V=[0, 7, 3, 0, 0] node=3 REPL_RECV color=red
+t=1763810756.661903 L=  8 V=[0, 7, 0, 2, 0] node=4 REPL_RECV color=red
+t=1763810756.662466 L=  8 V=[0, 7, 0, 0, 2] node=5 REPL_RECV color=red
+t=1763810756.662779 L=  8 V=[0, 8, 0, 0, 0] node=2 MUTEX_REL color
+t=1763810757.435436 L=  8 V=[3, 7, 0, 0, 0] node=1 MUTEX_GOT color
+t=1763810757.435860 L=  9 V=[4, 7, 0, 0, 0] node=1 APPLY_LOCAL color=blue
+t=1763810757.436267 L= 10 V=[5, 7, 0, 0, 0] node=1 REPL_SEND color=blue
+t=1763810757.437370 L= 11 V=[5, 9, 0, 0, 0] node=2 REPL_RECV color=blue
+t=1763810757.437908 L= 11 V=[5, 7, 4, 0, 0] node=3 REPL_RECV color=blue
+t=1763810757.438969 L= 11 V=[5, 7, 0, 3, 0] node=4 REPL_RECV color=blue
+t=1763810757.439602 L= 11 V=[5, 7, 0, 0, 3] node=5 REPL_RECV color=blue
+t=1763810757.439796 L= 11 V=[6, 7, 0, 0, 0] node=1 MUTEX_REL color
+t=1763810757.473702 L= 12 V=[7, 7, 0, 0, 0] node=1 GET color
+t=1763810757.475695 L= 12 V=[5, 10, 0, 0, 0] node=2 GET color
+t=1763810757.477326 L= 12 V=[5, 7, 5, 0, 0] node=3 GET color
+t=1763810757.479686 L= 12 V=[5, 7, 0, 4, 0] node=4 GET color
+t=1763810757.481478 L= 12 V=[5, 7, 0, 0, 4] node=5 GET color
+-- Lamport order --
+L=  1 t=1763810756.577506 V=[0, 1, 0, 0, 0] node=2 MUTEX_REQ color
+L=  1 t=1763810756.579908 V=[0, 1, 0, 0, 0] node=2 MUTEX_GOT color
+L=  2 t=1763810756.580139 V=[0, 2, 0, 0, 0] node=2 APPLY_LOCAL color=blue
+L=  3 t=1763810756.580442 V=[0, 3, 0, 0, 0] node=2 REPL_SEND color=blue
+L=  4 t=1763810756.581769 V=[1, 3, 0, 0, 0] node=1 REPL_RECV color=blue
+L=  4 t=1763810756.586184 V=[0, 4, 0, 0, 0] node=2 MUTEX_REL color
+L=  4 t=1763810756.582694 V=[0, 3, 1, 0, 0] node=3 REPL_RECV color=blue
+L=  4 t=1763810756.583645 V=[0, 3, 0, 1, 0] node=4 REPL_RECV color=blue
+L=  4 t=1763810756.585742 V=[0, 3, 0, 0, 1] node=5 REPL_RECV color=blue
+L=  5 t=1763810756.657063 V=[2, 3, 0, 0, 0] node=1 MUTEX_REQ color
+L=  5 t=1763810756.656956 V=[0, 5, 0, 0, 0] node=2 MUTEX_REQ color
+L=  5 t=1763810756.658704 V=[0, 5, 0, 0, 0] node=2 MUTEX_GOT color
+L=  5 t=1763810756.622698 V=[0, 3, 2, 0, 0] node=3 GET color
+L=  6 t=1763810756.658995 V=[0, 6, 0, 0, 0] node=2 APPLY_LOCAL color=red
+L=  7 t=1763810756.659265 V=[0, 7, 0, 0, 0] node=2 REPL_SEND color=red
+L=  8 t=1763810756.660421 V=[3, 7, 0, 0, 0] node=1 REPL_RECV color=red
+L=  8 t=1763810757.435436 V=[3, 7, 0, 0, 0] node=1 MUTEX_GOT color
+L=  8 t=1763810756.662779 V=[0, 8, 0, 0, 0] node=2 MUTEX_REL color
+L=  8 t=1763810756.660756 V=[0, 7, 3, 0, 0] node=3 REPL_RECV color=red
+L=  8 t=1763810756.661903 V=[0, 7, 0, 2, 0] node=4 REPL_RECV color=red
+L=  8 t=1763810756.662466 V=[0, 7, 0, 0, 2] node=5 REPL_RECV color=red
+L=  9 t=1763810757.435860 V=[4, 7, 0, 0, 0] node=1 APPLY_LOCAL color=blue
+L= 10 t=1763810757.436267 V=[5, 7, 0, 0, 0] node=1 REPL_SEND color=blue
+L= 11 t=1763810757.439796 V=[6, 7, 0, 0, 0] node=1 MUTEX_REL color
+L= 11 t=1763810757.437370 V=[5, 9, 0, 0, 0] node=2 REPL_RECV color=blue
+L= 11 t=1763810757.437908 V=[5, 7, 4, 0, 0] node=3 REPL_RECV color=blue
+L= 11 t=1763810757.438969 V=[5, 7, 0, 3, 0] node=4 REPL_RECV color=blue
+L= 11 t=1763810757.439602 V=[5, 7, 0, 0, 3] node=5 REPL_RECV color=blue
+L= 12 t=1763810757.473702 V=[7, 7, 0, 0, 0] node=1 GET color
+L= 12 t=1763810757.475695 V=[5, 10, 0, 0, 0] node=2 GET color
+L= 12 t=1763810757.477326 V=[5, 7, 5, 0, 0] node=3 GET color
+L= 12 t=1763810757.479686 V=[5, 7, 0, 4, 0] node=4 GET color
+L= 12 t=1763810757.481478 V=[5, 7, 0, 0, 4] node=5 GET color
+-- Vector partial order (layers of concurrent sets) --
+Layer 1: n2:MUTEX_REQ:color@[0, 1, 0, 0, 0], n2:MUTEX_GOT:color@[0, 1, 0, 0, 0]
+Layer 2: n2:APPLY_LOCAL:color=blue@[0, 2, 0, 0, 0]
+Layer 3: n2:REPL_SEND:color=blue@[0, 3, 0, 0, 0]
+Layer 4: n2:MUTEX_REL:color@[0, 4, 0, 0, 0], n3:REPL_RECV:color=blue@[0, 3, 1, 0, 0], n4:REPL_RECV:color=blue@[0, 3, 0, 1, 0], n1:REPL_RECV:color=blue@[1, 3, 0, 0, 0], n5:REPL_RECV:color=blue@[0, 3, 0, 0, 1]
+Layer 5: n3:GET:color@[0, 3, 2, 0, 0], n2:MUTEX_REQ:color@[0, 5, 0, 0, 0], n1:MUTEX_REQ:color@[2, 3, 0, 0, 0], n2:MUTEX_GOT:color@[0, 5, 0, 0, 0]
+Layer 6: n2:APPLY_LOCAL:color=red@[0, 6, 0, 0, 0]
+Layer 7: n2:REPL_SEND:color=red@[0, 7, 0, 0, 0]
+Layer 8: n1:REPL_RECV:color=red@[3, 7, 0, 0, 0], n3:REPL_RECV:color=red@[0, 7, 3, 0, 0], n4:REPL_RECV:color=red@[0, 7, 0, 2, 0], n5:REPL_RECV:color=red@[0, 7, 0, 0, 2], n2:MUTEX_REL:color@[0, 8, 0, 0, 0], n1:MUTEX_GOT:color@[3, 7, 0, 0, 0]
+Layer 9: n1:APPLY_LOCAL:color=blue@[4, 7, 0, 0, 0]
+Layer 10: n1:REPL_SEND:color=blue@[5, 7, 0, 0, 0]
+Layer 11: n2:REPL_RECV:color=blue@[5, 9, 0, 0, 0], n3:REPL_RECV:color=blue@[5, 7, 4, 0, 0], n4:REPL_RECV:color=blue@[5, 7, 0, 3, 0], n5:REPL_RECV:color=blue@[5, 7, 0, 0, 3], n1:MUTEX_REL:color@[6, 7, 0, 0, 0]
+Layer 12: n1:GET:color@[7, 7, 0, 0, 0], n2:GET:color@[5, 10, 0, 0, 0], n3:GET:color@[5, 7, 5, 0, 0], n4:GET:color@[5, 7, 0, 4, 0], n5:GET:color@[5, 7, 0, 0, 4]
+======================================================

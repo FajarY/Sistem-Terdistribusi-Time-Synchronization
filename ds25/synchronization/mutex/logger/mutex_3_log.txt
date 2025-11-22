@@ -1,0 +1,201 @@
+================ TRACE (last 82 events) ================
+-- Physical order --
+t=1763812420.252135 L=  1 V=[0, 1, 0, 0, 0] node=2 MUTEX_REQ color
+t=1763812420.254807 L=  1 V=[0, 1, 0, 0, 0] node=2 MUTEX_GOT color
+t=1763812420.255080 L=  2 V=[0, 2, 0, 0, 0] node=2 APPLY_LOCAL color=black
+t=1763812420.255365 L=  3 V=[0, 3, 0, 0, 0] node=2 REPL_SEND color=black
+t=1763812420.256853 L=  4 V=[1, 3, 0, 0, 0] node=1 REPL_RECV color=black
+t=1763812420.257619 L=  4 V=[0, 3, 1, 0, 0] node=3 REPL_RECV color=black
+t=1763812420.259329 L=  4 V=[0, 3, 0, 1, 0] node=4 REPL_RECV color=black
+t=1763812420.261014 L=  4 V=[0, 3, 0, 0, 1] node=5 REPL_RECV color=black
+t=1763812420.262141 L=  4 V=[0, 4, 0, 0, 0] node=2 MUTEX_REL color
+t=1763812420.296975 L=  5 V=[0, 3, 2, 0, 0] node=3 MUTEX_REQ color
+t=1763812420.297985 L=  5 V=[0, 3, 2, 0, 0] node=3 MUTEX_GOT color
+t=1763812420.298243 L=  6 V=[0, 3, 3, 0, 0] node=3 APPLY_LOCAL color=magenta
+t=1763812420.298593 L=  7 V=[0, 3, 4, 0, 0] node=3 REPL_SEND color=magenta
+t=1763812420.299597 L=  8 V=[2, 3, 4, 0, 0] node=1 REPL_RECV color=magenta
+t=1763812420.300181 L=  8 V=[0, 5, 4, 0, 0] node=2 REPL_RECV color=magenta
+t=1763812420.300950 L=  8 V=[0, 3, 4, 2, 0] node=4 REPL_RECV color=magenta
+t=1763812420.301856 L=  8 V=[0, 3, 4, 0, 2] node=5 REPL_RECV color=magenta
+t=1763812420.302198 L=  8 V=[0, 3, 5, 0, 0] node=3 MUTEX_REL color
+t=1763812420.334863 L=  9 V=[0, 3, 6, 0, 0] node=3 MUTEX_REQ warna
+t=1763812420.335937 L=  9 V=[0, 3, 6, 0, 0] node=3 MUTEX_GOT warna
+t=1763812420.336104 L= 10 V=[0, 3, 7, 0, 0] node=3 APPLY_LOCAL warna=kuning
+t=1763812420.336532 L= 11 V=[0, 3, 8, 0, 0] node=3 REPL_SEND warna=kuning
+t=1763812420.337724 L= 12 V=[3, 3, 8, 0, 0] node=1 REPL_RECV warna=kuning
+t=1763812420.337967 L= 12 V=[0, 6, 8, 0, 0] node=2 REPL_RECV warna=kuning
+t=1763812420.338931 L= 12 V=[0, 3, 8, 3, 0] node=4 REPL_RECV warna=kuning
+t=1763812420.339630 L= 12 V=[0, 3, 8, 0, 3] node=5 REPL_RECV warna=kuning
+t=1763812420.339835 L= 12 V=[0, 3, 9, 0, 0] node=3 MUTEX_REL warna
+t=1763812420.375281 L= 13 V=[0, 3, 10, 0, 0] node=3 MUTEX_REQ warna
+t=1763812420.376439 L= 13 V=[0, 3, 10, 0, 0] node=3 MUTEX_GOT warna
+t=1763812420.376675 L= 14 V=[0, 3, 11, 0, 0] node=3 APPLY_LOCAL warna=kuning
+t=1763812420.377048 L= 15 V=[0, 3, 12, 0, 0] node=3 REPL_SEND warna=kuning
+t=1763812420.378352 L= 16 V=[4, 3, 12, 0, 0] node=1 REPL_RECV warna=kuning
+t=1763812420.378746 L= 16 V=[0, 7, 12, 0, 0] node=2 REPL_RECV warna=kuning
+t=1763812420.379889 L= 16 V=[0, 3, 12, 4, 0] node=4 REPL_RECV warna=kuning
+t=1763812420.381630 L= 16 V=[0, 3, 12, 0, 4] node=5 REPL_RECV warna=kuning
+t=1763812420.382013 L= 16 V=[0, 3, 13, 0, 0] node=3 MUTEX_REL warna
+t=1763812420.418840 L= 17 V=[0, 8, 12, 0, 0] node=2 MUTEX_REQ color
+t=1763812420.419596 L= 17 V=[5, 3, 12, 0, 0] node=1 MUTEX_REQ color
+t=1763812420.420401 L= 17 V=[0, 8, 12, 0, 0] node=2 MUTEX_GOT color
+t=1763812420.420999 L= 18 V=[0, 9, 12, 0, 0] node=2 APPLY_LOCAL color=green
+t=1763812420.421444 L= 19 V=[0, 10, 12, 0, 0] node=2 REPL_SEND color=green
+t=1763812420.422532 L= 20 V=[6, 10, 12, 0, 0] node=1 REPL_RECV color=green
+t=1763812420.423253 L= 20 V=[0, 10, 14, 0, 0] node=3 REPL_RECV color=green
+t=1763812420.423841 L= 20 V=[0, 10, 12, 5, 0] node=4 REPL_RECV color=green
+t=1763812420.424600 L= 20 V=[0, 10, 12, 0, 5] node=5 REPL_RECV color=green
+t=1763812420.425076 L= 20 V=[0, 11, 12, 0, 0] node=2 MUTEX_REL color
+t=1763812422.457226 L= 21 V=[0, 12, 12, 0, 0] node=2 MUTEX_REQ warna
+t=1763812422.458617 L= 21 V=[7, 10, 12, 0, 0] node=1 MUTEX_REQ warna
+t=1763812424.498731 L= 22 V=[8, 10, 12, 0, 0] node=1 GET color
+t=1763812424.500540 L= 22 V=[0, 13, 12, 0, 0] node=2 GET color
+t=1763812424.503079 L= 21 V=[0, 10, 15, 0, 0] node=3 GET color
+t=1763812424.505628 L= 21 V=[0, 10, 12, 6, 0] node=4 GET color
+t=1763812424.507330 L= 21 V=[0, 10, 12, 0, 6] node=5 GET color
+t=1763812424.543610 L= 22 V=[8, 10, 12, 0, 0] node=1 MUTEX_GOT color
+t=1763812424.543828 L= 23 V=[9, 10, 12, 0, 0] node=1 APPLY_LOCAL color=blue
+t=1763812424.544254 L= 24 V=[10, 10, 12, 0, 0] node=1 REPL_SEND color=blue
+t=1763812424.545089 L= 25 V=[10, 14, 12, 0, 0] node=2 REPL_RECV color=blue
+t=1763812424.546518 L= 25 V=[10, 10, 16, 0, 0] node=3 REPL_RECV color=blue
+t=1763812424.547018 L= 25 V=[10, 10, 12, 7, 0] node=4 REPL_RECV color=blue
+t=1763812424.548079 L= 25 V=[10, 10, 12, 0, 7] node=5 REPL_RECV color=blue
+t=1763812424.548448 L= 25 V=[11, 10, 12, 0, 0] node=1 MUTEX_REL color
+t=1763812424.550879 L= 26 V=[12, 10, 12, 0, 0] node=1 GET warna
+t=1763812424.552262 L= 26 V=[10, 15, 12, 0, 0] node=2 GET warna
+t=1763812424.553865 L= 26 V=[10, 10, 17, 0, 0] node=3 GET warna
+t=1763812424.555306 L= 26 V=[10, 10, 12, 8, 0] node=4 GET warna
+t=1763812424.556733 L= 26 V=[10, 10, 12, 0, 8] node=5 GET warna
+t=1763812427.581695 L= 26 V=[12, 10, 12, 0, 0] node=1 MUTEX_GOT warna
+t=1763812427.582932 L= 27 V=[13, 10, 12, 0, 0] node=1 APPLY_LOCAL warna=oranye
+t=1763812427.584437 L= 28 V=[14, 10, 12, 0, 0] node=1 REPL_SEND warna=oranye
+t=1763812427.586904 L= 29 V=[14, 16, 12, 0, 0] node=2 REPL_RECV warna=oranye
+t=1763812427.588508 L= 29 V=[14, 10, 18, 0, 0] node=3 REPL_RECV warna=oranye
+t=1763812427.589325 L= 29 V=[14, 10, 12, 9, 0] node=4 REPL_RECV warna=oranye
+t=1763812427.589891 L= 29 V=[15, 10, 12, 0, 0] node=1 MUTEX_REL warna
+t=1763812427.590220 L= 29 V=[14, 10, 12, 0, 9] node=5 REPL_RECV warna=oranye
+t=1763812430.571630 L= 29 V=[14, 16, 12, 0, 0] node=2 MUTEX_GOT warna
+t=1763812430.571843 L= 30 V=[14, 17, 12, 0, 0] node=2 APPLY_LOCAL warna=hijau
+t=1763812430.573004 L= 31 V=[14, 18, 12, 0, 0] node=2 REPL_SEND warna=hijau
+t=1763812430.574265 L= 32 V=[16, 18, 12, 0, 0] node=1 REPL_RECV warna=hijau
+t=1763812430.574645 L= 32 V=[14, 18, 19, 0, 0] node=3 REPL_RECV warna=hijau
+t=1763812430.575451 L= 32 V=[14, 18, 12, 10, 0] node=4 REPL_RECV warna=hijau
+t=1763812430.576433 L= 32 V=[14, 18, 12, 0, 10] node=5 REPL_RECV warna=hijau
+t=1763812430.576667 L= 32 V=[14, 19, 12, 0, 0] node=2 MUTEX_REL warna
+-- Lamport order --
+L=  1 t=1763812420.252135 V=[0, 1, 0, 0, 0] node=2 MUTEX_REQ color
+L=  1 t=1763812420.254807 V=[0, 1, 0, 0, 0] node=2 MUTEX_GOT color
+L=  2 t=1763812420.255080 V=[0, 2, 0, 0, 0] node=2 APPLY_LOCAL color=black
+L=  3 t=1763812420.255365 V=[0, 3, 0, 0, 0] node=2 REPL_SEND color=black
+L=  4 t=1763812420.256853 V=[1, 3, 0, 0, 0] node=1 REPL_RECV color=black
+L=  4 t=1763812420.262141 V=[0, 4, 0, 0, 0] node=2 MUTEX_REL color
+L=  4 t=1763812420.257619 V=[0, 3, 1, 0, 0] node=3 REPL_RECV color=black
+L=  4 t=1763812420.259329 V=[0, 3, 0, 1, 0] node=4 REPL_RECV color=black
+L=  4 t=1763812420.261014 V=[0, 3, 0, 0, 1] node=5 REPL_RECV color=black
+L=  5 t=1763812420.296975 V=[0, 3, 2, 0, 0] node=3 MUTEX_REQ color
+L=  5 t=1763812420.297985 V=[0, 3, 2, 0, 0] node=3 MUTEX_GOT color
+L=  6 t=1763812420.298243 V=[0, 3, 3, 0, 0] node=3 APPLY_LOCAL color=magenta
+L=  7 t=1763812420.298593 V=[0, 3, 4, 0, 0] node=3 REPL_SEND color=magenta
+L=  8 t=1763812420.299597 V=[2, 3, 4, 0, 0] node=1 REPL_RECV color=magenta
+L=  8 t=1763812420.300181 V=[0, 5, 4, 0, 0] node=2 REPL_RECV color=magenta
+L=  8 t=1763812420.302198 V=[0, 3, 5, 0, 0] node=3 MUTEX_REL color
+L=  8 t=1763812420.300950 V=[0, 3, 4, 2, 0] node=4 REPL_RECV color=magenta
+L=  8 t=1763812420.301856 V=[0, 3, 4, 0, 2] node=5 REPL_RECV color=magenta
+L=  9 t=1763812420.334863 V=[0, 3, 6, 0, 0] node=3 MUTEX_REQ warna
+L=  9 t=1763812420.335937 V=[0, 3, 6, 0, 0] node=3 MUTEX_GOT warna
+L= 10 t=1763812420.336104 V=[0, 3, 7, 0, 0] node=3 APPLY_LOCAL warna=kuning
+L= 11 t=1763812420.336532 V=[0, 3, 8, 0, 0] node=3 REPL_SEND warna=kuning
+L= 12 t=1763812420.337724 V=[3, 3, 8, 0, 0] node=1 REPL_RECV warna=kuning
+L= 12 t=1763812420.337967 V=[0, 6, 8, 0, 0] node=2 REPL_RECV warna=kuning
+L= 12 t=1763812420.339835 V=[0, 3, 9, 0, 0] node=3 MUTEX_REL warna
+L= 12 t=1763812420.338931 V=[0, 3, 8, 3, 0] node=4 REPL_RECV warna=kuning
+L= 12 t=1763812420.339630 V=[0, 3, 8, 0, 3] node=5 REPL_RECV warna=kuning
+L= 13 t=1763812420.375281 V=[0, 3, 10, 0, 0] node=3 MUTEX_REQ warna
+L= 13 t=1763812420.376439 V=[0, 3, 10, 0, 0] node=3 MUTEX_GOT warna
+L= 14 t=1763812420.376675 V=[0, 3, 11, 0, 0] node=3 APPLY_LOCAL warna=kuning
+L= 15 t=1763812420.377048 V=[0, 3, 12, 0, 0] node=3 REPL_SEND warna=kuning
+L= 16 t=1763812420.378352 V=[4, 3, 12, 0, 0] node=1 REPL_RECV warna=kuning
+L= 16 t=1763812420.378746 V=[0, 7, 12, 0, 0] node=2 REPL_RECV warna=kuning
+L= 16 t=1763812420.382013 V=[0, 3, 13, 0, 0] node=3 MUTEX_REL warna
+L= 16 t=1763812420.379889 V=[0, 3, 12, 4, 0] node=4 REPL_RECV warna=kuning
+L= 16 t=1763812420.381630 V=[0, 3, 12, 0, 4] node=5 REPL_RECV warna=kuning
+L= 17 t=1763812420.419596 V=[5, 3, 12, 0, 0] node=1 MUTEX_REQ color
+L= 17 t=1763812420.418840 V=[0, 8, 12, 0, 0] node=2 MUTEX_REQ color
+L= 17 t=1763812420.420401 V=[0, 8, 12, 0, 0] node=2 MUTEX_GOT color
+L= 18 t=1763812420.420999 V=[0, 9, 12, 0, 0] node=2 APPLY_LOCAL color=green
+L= 19 t=1763812420.421444 V=[0, 10, 12, 0, 0] node=2 REPL_SEND color=green
+L= 20 t=1763812420.422532 V=[6, 10, 12, 0, 0] node=1 REPL_RECV color=green
+L= 20 t=1763812420.425076 V=[0, 11, 12, 0, 0] node=2 MUTEX_REL color
+L= 20 t=1763812420.423253 V=[0, 10, 14, 0, 0] node=3 REPL_RECV color=green
+L= 20 t=1763812420.423841 V=[0, 10, 12, 5, 0] node=4 REPL_RECV color=green
+L= 20 t=1763812420.424600 V=[0, 10, 12, 0, 5] node=5 REPL_RECV color=green
+L= 21 t=1763812422.458617 V=[7, 10, 12, 0, 0] node=1 MUTEX_REQ warna
+L= 21 t=1763812422.457226 V=[0, 12, 12, 0, 0] node=2 MUTEX_REQ warna
+L= 21 t=1763812424.503079 V=[0, 10, 15, 0, 0] node=3 GET color
+L= 21 t=1763812424.505628 V=[0, 10, 12, 6, 0] node=4 GET color
+L= 21 t=1763812424.507330 V=[0, 10, 12, 0, 6] node=5 GET color
+L= 22 t=1763812424.498731 V=[8, 10, 12, 0, 0] node=1 GET color
+L= 22 t=1763812424.543610 V=[8, 10, 12, 0, 0] node=1 MUTEX_GOT color
+L= 22 t=1763812424.500540 V=[0, 13, 12, 0, 0] node=2 GET color
+L= 23 t=1763812424.543828 V=[9, 10, 12, 0, 0] node=1 APPLY_LOCAL color=blue
+L= 24 t=1763812424.544254 V=[10, 10, 12, 0, 0] node=1 REPL_SEND color=blue
+L= 25 t=1763812424.548448 V=[11, 10, 12, 0, 0] node=1 MUTEX_REL color
+L= 25 t=1763812424.545089 V=[10, 14, 12, 0, 0] node=2 REPL_RECV color=blue
+L= 25 t=1763812424.546518 V=[10, 10, 16, 0, 0] node=3 REPL_RECV color=blue
+L= 25 t=1763812424.547018 V=[10, 10, 12, 7, 0] node=4 REPL_RECV color=blue
+L= 25 t=1763812424.548079 V=[10, 10, 12, 0, 7] node=5 REPL_RECV color=blue
+L= 26 t=1763812424.550879 V=[12, 10, 12, 0, 0] node=1 GET warna
+L= 26 t=1763812427.581695 V=[12, 10, 12, 0, 0] node=1 MUTEX_GOT warna
+L= 26 t=1763812424.552262 V=[10, 15, 12, 0, 0] node=2 GET warna
+L= 26 t=1763812424.553865 V=[10, 10, 17, 0, 0] node=3 GET warna
+L= 26 t=1763812424.555306 V=[10, 10, 12, 8, 0] node=4 GET warna
+L= 26 t=1763812424.556733 V=[10, 10, 12, 0, 8] node=5 GET warna
+L= 27 t=1763812427.582932 V=[13, 10, 12, 0, 0] node=1 APPLY_LOCAL warna=oranye
+L= 28 t=1763812427.584437 V=[14, 10, 12, 0, 0] node=1 REPL_SEND warna=oranye
+L= 29 t=1763812427.589891 V=[15, 10, 12, 0, 0] node=1 MUTEX_REL warna
+L= 29 t=1763812427.586904 V=[14, 16, 12, 0, 0] node=2 REPL_RECV warna=oranye
+L= 29 t=1763812430.571630 V=[14, 16, 12, 0, 0] node=2 MUTEX_GOT warna
+L= 29 t=1763812427.588508 V=[14, 10, 18, 0, 0] node=3 REPL_RECV warna=oranye
+L= 29 t=1763812427.589325 V=[14, 10, 12, 9, 0] node=4 REPL_RECV warna=oranye
+L= 29 t=1763812427.590220 V=[14, 10, 12, 0, 9] node=5 REPL_RECV warna=oranye
+L= 30 t=1763812430.571843 V=[14, 17, 12, 0, 0] node=2 APPLY_LOCAL warna=hijau
+L= 31 t=1763812430.573004 V=[14, 18, 12, 0, 0] node=2 REPL_SEND warna=hijau
+L= 32 t=1763812430.574265 V=[16, 18, 12, 0, 0] node=1 REPL_RECV warna=hijau
+L= 32 t=1763812430.576667 V=[14, 19, 12, 0, 0] node=2 MUTEX_REL warna
+L= 32 t=1763812430.574645 V=[14, 18, 19, 0, 0] node=3 REPL_RECV warna=hijau
+L= 32 t=1763812430.575451 V=[14, 18, 12, 10, 0] node=4 REPL_RECV warna=hijau
+L= 32 t=1763812430.576433 V=[14, 18, 12, 0, 10] node=5 REPL_RECV warna=hijau
+-- Vector partial order (layers of concurrent sets) --
+Layer 1: n2:MUTEX_REQ:color@[0, 1, 0, 0, 0], n2:MUTEX_GOT:color@[0, 1, 0, 0, 0]
+Layer 2: n2:APPLY_LOCAL:color=black@[0, 2, 0, 0, 0]
+Layer 3: n2:REPL_SEND:color=black@[0, 3, 0, 0, 0]
+Layer 4: n1:REPL_RECV:color=black@[1, 3, 0, 0, 0], n2:MUTEX_REL:color@[0, 4, 0, 0, 0], n3:REPL_RECV:color=black@[0, 3, 1, 0, 0], n5:REPL_RECV:color=black@[0, 3, 0, 0, 1], n4:REPL_RECV:color=black@[0, 3, 0, 1, 0]
+Layer 5: n3:MUTEX_REQ:color@[0, 3, 2, 0, 0], n3:MUTEX_GOT:color@[0, 3, 2, 0, 0]
+Layer 6: n3:APPLY_LOCAL:color=magenta@[0, 3, 3, 0, 0]
+Layer 7: n3:REPL_SEND:color=magenta@[0, 3, 4, 0, 0]
+Layer 8: n1:REPL_RECV:color=magenta@[2, 3, 4, 0, 0], n2:REPL_RECV:color=magenta@[0, 5, 4, 0, 0], n4:REPL_RECV:color=magenta@[0, 3, 4, 2, 0], n5:REPL_RECV:color=magenta@[0, 3, 4, 0, 2], n3:MUTEX_REL:color@[0, 3, 5, 0, 0]
+Layer 9: n3:MUTEX_REQ:warna@[0, 3, 6, 0, 0], n3:MUTEX_GOT:warna@[0, 3, 6, 0, 0]
+Layer 10: n3:APPLY_LOCAL:warna=kuning@[0, 3, 7, 0, 0]
+Layer 11: n3:REPL_SEND:warna=kuning@[0, 3, 8, 0, 0]
+Layer 12: n1:REPL_RECV:warna=kuning@[3, 3, 8, 0, 0], n2:REPL_RECV:warna=kuning@[0, 6, 8, 0, 0], n4:REPL_RECV:warna=kuning@[0, 3, 8, 3, 0], n5:REPL_RECV:warna=kuning@[0, 3, 8, 0, 3], n3:MUTEX_REL:warna@[0, 3, 9, 0, 0]
+Layer 13: n3:MUTEX_REQ:warna@[0, 3, 10, 0, 0], n3:MUTEX_GOT:warna@[0, 3, 10, 0, 0]
+Layer 14: n3:APPLY_LOCAL:warna=kuning@[0, 3, 11, 0, 0]
+Layer 15: n3:REPL_SEND:warna=kuning@[0, 3, 12, 0, 0]
+Layer 16: n1:REPL_RECV:warna=kuning@[4, 3, 12, 0, 0], n2:REPL_RECV:warna=kuning@[0, 7, 12, 0, 0], n4:REPL_RECV:warna=kuning@[0, 3, 12, 4, 0], n5:REPL_RECV:warna=kuning@[0, 3, 12, 0, 4], n3:MUTEX_REL:warna@[0, 3, 13, 0, 0]
+Layer 17: n2:MUTEX_REQ:color@[0, 8, 12, 0, 0], n1:MUTEX_REQ:color@[5, 3, 12, 0, 0], n2:MUTEX_GOT:color@[0, 8, 12, 0, 0]
+Layer 18: n2:APPLY_LOCAL:color=green@[0, 9, 12, 0, 0]
+Layer 19: n2:REPL_SEND:color=green@[0, 10, 12, 0, 0]
+Layer 20: n1:REPL_RECV:color=green@[6, 10, 12, 0, 0], n4:REPL_RECV:color=green@[0, 10, 12, 5, 0], n3:REPL_RECV:color=green@[0, 10, 14, 0, 0], n5:REPL_RECV:color=green@[0, 10, 12, 0, 5], n2:MUTEX_REL:color@[0, 11, 12, 0, 0]
+Layer 21: n2:MUTEX_REQ:warna@[0, 12, 12, 0, 0], n1:MUTEX_REQ:warna@[7, 10, 12, 0, 0], n3:GET:color@[0, 10, 15, 0, 0], n4:GET:color@[0, 10, 12, 6, 0], n5:GET:color@[0, 10, 12, 0, 6]
+Layer 22: n1:GET:color@[8, 10, 12, 0, 0], n2:GET:color@[0, 13, 12, 0, 0], n1:MUTEX_GOT:color@[8, 10, 12, 0, 0]
+Layer 23: n1:APPLY_LOCAL:color=blue@[9, 10, 12, 0, 0]
+Layer 24: n1:REPL_SEND:color=blue@[10, 10, 12, 0, 0]
+Layer 25: n2:REPL_RECV:color=blue@[10, 14, 12, 0, 0], n3:REPL_RECV:color=blue@[10, 10, 16, 0, 0], n4:REPL_RECV:color=blue@[10, 10, 12, 7, 0], n1:MUTEX_REL:color@[11, 10, 12, 0, 0], n5:REPL_RECV:color=blue@[10, 10, 12, 0, 7]
+Layer 26: n1:GET:warna@[12, 10, 12, 0, 0], n2:GET:warna@[10, 15, 12, 0, 0], n3:GET:warna@[10, 10, 17, 0, 0], n4:GET:warna@[10, 10, 12, 8, 0], n5:GET:warna@[10, 10, 12, 0, 8], n1:MUTEX_GOT:warna@[12, 10, 12, 0, 0]
+Layer 27: n1:APPLY_LOCAL:warna=oranye@[13, 10, 12, 0, 0]
+Layer 28: n1:REPL_SEND:warna=oranye@[14, 10, 12, 0, 0]
+Layer 29: n2:REPL_RECV:warna=oranye@[14, 16, 12, 0, 0], n3:REPL_RECV:warna=oranye@[14, 10, 18, 0, 0], n4:REPL_RECV:warna=oranye@[14, 10, 12, 9, 0], n5:REPL_RECV:warna=oranye@[14, 10, 12, 0, 9], n1:MUTEX_REL:warna@[15, 10, 12, 0, 0], n2:MUTEX_GOT:warna@[14, 16, 12, 0, 0]
+Layer 30: n2:APPLY_LOCAL:warna=hijau@[14, 17, 12, 0, 0]
+Layer 31: n2:REPL_SEND:warna=hijau@[14, 18, 12, 0, 0]
+Layer 32: n1:REPL_RECV:warna=hijau@[16, 18, 12, 0, 0], n3:REPL_RECV:warna=hijau@[14, 18, 19, 0, 0], n4:REPL_RECV:warna=hijau@[14, 18, 12, 10, 0], n5:REPL_RECV:warna=hijau@[14, 18, 12, 0, 10], n2:MUTEX_REL:warna@[14, 19, 12, 0, 0]
+======================================================
