@@ -1,0 +1,381 @@
+[COLLECTOR] Listening on ('0.0.0.0', 9999)
+[COLLECTOR] CHAT {'type': 'chat', 'kind': 'chat', 'id': 'CHAT-A-6918970', 'sender': 'A', 'receiver': 'B', 'text': 'Hello from A', 'lamport': 1, 'vclock': {'A': 1, 'B': 0, 'C': 0, 'D': 0}, 'local_ts': 1762160280.8020341, 'mono_send': 6918.970323706, '_collector_arrival': 1762160280.2025578}
+[COLLECTOR] CHAT {'type': 'chat', 'kind': 'ack', 'id': 'ACK-B-6918981', 'sender': 'B', 'receiver': 'A', 'text': 'Ack:CHAT-A-6918970', 'lamport': 3, 'vclock': {'B': 2, 'A': 1, 'C': 0, 'D': 0}, 'local_ts': 1762160279.6136258, 'mono_send': 6918.981923537, '_collector_arrival': 1762160280.214544}
+[COLLECTOR] CHAT {'type': 'chat', 'kind': 'chat', 'id': 'CHAT-A-6919020', 'sender': 'A', 'receiver': 'C', 'text': 'Hello from A', 'lamport': 2, 'vclock': {'A': 2, 'B': 0, 'C': 0, 'D': 0}, 'local_ts': 1762160280.8523452, 'mono_send': 6919.020635061, '_collector_arrival': 1762160280.2536037}
+[COLLECTOR] CHAT {'type': 'chat', 'kind': 'ack', 'id': 'ACK-C-6919032', 'sender': 'C', 'receiver': 'A', 'text': 'Ack:CHAT-A-6919020', 'lamport': 4, 'vclock': {'C': 2, 'A': 2, 'B': 0, 'D': 0}, 'local_ts': 1762160280.8638158, 'mono_send': 6919.032105605, '_collector_arrival': 1762160280.264494}
+[COLLECTOR] CHAT {'type': 'chat', 'kind': 'chat', 'id': 'CHAT-A-6919071', 'sender': 'A', 'receiver': 'D', 'text': 'Hello from A', 'lamport': 3, 'vclock': {'A': 3, 'B': 0, 'C': 0, 'D': 0}, 'local_ts': 1762160280.9027324, 'mono_send': 6919.071022083, '_collector_arrival': 1762160280.303343}
+[COLLECTOR] CHAT {'type': 'chat', 'kind': 'ack', 'id': 'ACK-D-6919082', 'sender': 'D', 'receiver': 'A', 'text': 'Ack:CHAT-A-6919071', 'lamport': 5, 'vclock': {'D': 2, 'A': 3, 'B': 0, 'C': 0}, 'local_ts': 1762160279.714332, 'mono_send': 6919.082621615, '_collector_arrival': 1762160280.315344}
+[COLLECTOR] CHAT {'type': 'chat', 'kind': 'chat', 'id': 'CHAT-B-6938436', 'sender': 'B', 'receiver': 'A', 'text': 'hello', 'lamport': 4, 'vclock': {'B': 3, 'A': 1, 'C': 0, 'D': 0}, 'local_ts': 1762160299.0677392, 'mono_send': 6938.436028789, '_collector_arrival': 1762160299.6682918}
+[COLLECTOR] CHAT {'type': 'chat', 'kind': 'chat', 'id': 'CHAT-B-6938436', 'sender': 'B', 'receiver': 'C', 'text': 'hello', 'lamport': 5, 'vclock': {'B': 4, 'A': 1, 'C': 0, 'D': 0}, 'local_ts': 1762160299.0678287, 'mono_send': 6938.436117844, '_collector_arrival': 1762160299.668331}
+[COLLECTOR] CHAT {'type': 'chat', 'kind': 'chat', 'id': 'CHAT-B-6938436', 'sender': 'B', 'receiver': 'D', 'text': 'hello', 'lamport': 6, 'vclock': {'B': 5, 'A': 1, 'C': 0, 'D': 0}, 'local_ts': 1762160299.0678487, 'mono_send': 6938.436137985, '_collector_arrival': 1762160299.6683412}
+[COLLECTOR] CHAT {'type': 'chat', 'kind': 'ack', 'id': 'ACK-A-6938447', 'sender': 'A', 'receiver': 'B', 'text': 'Ack:CHAT-B-6938436', 'lamport': 8, 'vclock': {'A': 8, 'B': 3, 'C': 2, 'D': 2}, 'local_ts': 1762160300.278991, 'mono_send': 6938.447280394, '_collector_arrival': 1762160299.6811635}
+[COLLECTOR] CHAT {'type': 'chat', 'kind': 'ack', 'id': 'ACK-C-6938447', 'sender': 'C', 'receiver': 'B', 'text': 'Ack:CHAT-B-6938436', 'lamport': 7, 'vclock': {'C': 4, 'A': 2, 'B': 4, 'D': 0}, 'local_ts': 1762160300.2793317, 'mono_send': 6938.447621323, '_collector_arrival': 1762160299.6812093}
+[COLLECTOR] CHAT {'type': 'chat', 'kind': 'ack', 'id': 'ACK-D-6938448', 'sender': 'D', 'receiver': 'B', 'text': 'Ack:CHAT-B-6938436', 'lamport': 8, 'vclock': {'D': 4, 'A': 3, 'B': 5, 'C': 0}, 'local_ts': 1762160299.0801303, 'mono_send': 6938.448419866, '_collector_arrival': 1762160299.681219}
+[COLLECTOR] CHAT {'type': 'chat', 'kind': 'chat', 'id': 'CHAT-D-6942259', 'sender': 'D', 'receiver': 'A', 'text': 'hello', 'lamport': 9, 'vclock': {'D': 5, 'A': 3, 'B': 5, 'C': 0}, 'local_ts': 1762160302.8911815, 'mono_send': 6942.259470799, '_collector_arrival': 1762160303.4923387}
+[COLLECTOR] CHAT {'type': 'chat', 'kind': 'chat', 'id': 'CHAT-D-6942259', 'sender': 'D', 'receiver': 'B', 'text': 'hello', 'lamport': 10, 'vclock': {'D': 6, 'A': 3, 'B': 5, 'C': 0}, 'local_ts': 1762160302.8912756, 'mono_send': 6942.259564912, '_collector_arrival': 1762160303.4934208}
+[COLLECTOR] CHAT {'type': 'chat', 'kind': 'chat', 'id': 'CHAT-D-6942259', 'sender': 'D', 'receiver': 'C', 'text': 'hello', 'lamport': 11, 'vclock': {'D': 7, 'A': 3, 'B': 5, 'C': 0}, 'local_ts': 1762160302.891295, 'mono_send': 6942.259584401, '_collector_arrival': 1762160303.4934385}
+[COLLECTOR] CHAT {'type': 'chat', 'kind': 'ack', 'id': 'ACK-B-6942271', 'sender': 'B', 'receiver': 'D', 'text': 'Ack:CHAT-D-6942259', 'lamport': 13, 'vclock': {'B': 10, 'A': 8, 'C': 4, 'D': 6}, 'local_ts': 1762160302.9033737, 'mono_send': 6942.271663162, '_collector_arrival': 1762160303.5055785}
+[COLLECTOR] CHAT {'type': 'chat', 'kind': 'ack', 'id': 'ACK-C-6942272', 'sender': 'C', 'receiver': 'D', 'text': 'Ack:CHAT-D-6942259', 'lamport': 13, 'vclock': {'C': 6, 'A': 3, 'B': 5, 'D': 7}, 'local_ts': 1762160304.1037598, 'mono_send': 6942.27204921, '_collector_arrival': 1762160303.5056746}
+[COLLECTOR] CHAT {'type': 'chat', 'kind': 'ack', 'id': 'ACK-A-6942271', 'sender': 'A', 'receiver': 'D', 'text': 'Ack:CHAT-D-6942259', 'lamport': 11, 'vclock': {'A': 10, 'B': 5, 'C': 2, 'D': 5}, 'local_ts': 1762160304.1036015, 'mono_send': 6942.271891024, '_collector_arrival': 1762160303.5056899}
+[COLLECTOR] CHAT {'type': 'chat', 'kind': 'chat', 'id': 'CHAT-C-6951701', 'sender': 'C', 'receiver': 'A', 'text': 'hello', 'lamport': 14, 'vclock': {'C': 7, 'A': 3, 'B': 5, 'D': 7}, 'local_ts': 1762160313.533264, 'mono_send': 6951.701553619, '_collector_arrival': 1762160312.93386}
+[COLLECTOR] CHAT {'type': 'chat', 'kind': 'chat', 'id': 'CHAT-C-6951702', 'sender': 'C', 'receiver': 'B', 'text': 'hello', 'lamport': 15, 'vclock': {'C': 8, 'A': 3, 'B': 5, 'D': 7}, 'local_ts': 1762160313.5337255, 'mono_send': 6951.702014987, '_collector_arrival': 1762160312.9348083}
+[COLLECTOR] CHAT {'type': 'chat', 'kind': 'chat', 'id': 'CHAT-C-6951702', 'sender': 'C', 'receiver': 'D', 'text': 'hello', 'lamport': 16, 'vclock': {'C': 9, 'A': 3, 'B': 5, 'D': 7}, 'local_ts': 1762160313.533995, 'mono_send': 6951.702284325, '_collector_arrival': 1762160312.9359677}
+[COLLECTOR] CHAT {'type': 'chat', 'kind': 'ack', 'id': 'ACK-A-6951712', 'sender': 'A', 'receiver': 'C', 'text': 'Ack:CHAT-C-6951701', 'lamport': 16, 'vclock': {'A': 12, 'B': 5, 'C': 7, 'D': 7}, 'local_ts': 1762160313.5437675, 'mono_send': 6951.71205702, '_collector_arrival': 1762160312.9442163}
+[COLLECTOR] CHAT {'type': 'chat', 'kind': 'ack', 'id': 'ACK-D-6951713', 'sender': 'D', 'receiver': 'C', 'text': 'Ack:CHAT-C-6951702', 'lamport': 18, 'vclock': {'D': 12, 'A': 10, 'B': 10, 'C': 9}, 'local_ts': 1762160312.3449612, 'mono_send': 6951.713250414, '_collector_arrival': 1762160312.9459853}
+[COLLECTOR] CHAT {'type': 'chat', 'kind': 'ack', 'id': 'ACK-B-6951713', 'sender': 'B', 'receiver': 'C', 'text': 'Ack:CHAT-C-6951702', 'lamport': 17, 'vclock': {'B': 12, 'A': 8, 'C': 8, 'D': 7}, 'local_ts': 1762160312.3448517, 'mono_send': 6951.713141264, '_collector_arrival': 1762160312.9461515}
+
+=== Naive order (by sender local_ts) — may violate causality ===
+ACK-B-6918981 B->A local_ts=1762160279.614 L=3 V={'B': 2, 'A': 1, 'C': 0, 'D': 0} "Ack:CHAT-A-6918970"
+ACK-D-6919082 D->A local_ts=1762160279.714 L=5 V={'D': 2, 'A': 3, 'B': 0, 'C': 0} "Ack:CHAT-A-6919071"
+CHAT-A-6918970 A->B local_ts=1762160280.802 L=1 V={'A': 1, 'B': 0, 'C': 0, 'D': 0} "Hello from A"
+CHAT-A-6919020 A->C local_ts=1762160280.852 L=2 V={'A': 2, 'B': 0, 'C': 0, 'D': 0} "Hello from A"
+ACK-C-6919032 C->A local_ts=1762160280.864 L=4 V={'C': 2, 'A': 2, 'B': 0, 'D': 0} "Ack:CHAT-A-6919020"
+CHAT-A-6919071 A->D local_ts=1762160280.903 L=3 V={'A': 3, 'B': 0, 'C': 0, 'D': 0} "Hello from A"
+CHAT-B-6938436 B->A local_ts=1762160299.068 L=4 V={'B': 3, 'A': 1, 'C': 0, 'D': 0} "hello"
+CHAT-B-6938436 B->C local_ts=1762160299.068 L=5 V={'B': 4, 'A': 1, 'C': 0, 'D': 0} "hello"
+CHAT-B-6938436 B->D local_ts=1762160299.068 L=6 V={'B': 5, 'A': 1, 'C': 0, 'D': 0} "hello"
+ACK-D-6938448 D->B local_ts=1762160299.080 L=8 V={'D': 4, 'A': 3, 'B': 5, 'C': 0} "Ack:CHAT-B-6938436"
+ACK-A-6938447 A->B local_ts=1762160300.279 L=8 V={'A': 8, 'B': 3, 'C': 2, 'D': 2} "Ack:CHAT-B-6938436"
+ACK-C-6938447 C->B local_ts=1762160300.279 L=7 V={'C': 4, 'A': 2, 'B': 4, 'D': 0} "Ack:CHAT-B-6938436"
+CHAT-D-6942259 D->A local_ts=1762160302.891 L=9 V={'D': 5, 'A': 3, 'B': 5, 'C': 0} "hello"
+CHAT-D-6942259 D->B local_ts=1762160302.891 L=10 V={'D': 6, 'A': 3, 'B': 5, 'C': 0} "hello"
+CHAT-D-6942259 D->C local_ts=1762160302.891 L=11 V={'D': 7, 'A': 3, 'B': 5, 'C': 0} "hello"
+ACK-B-6942271 B->D local_ts=1762160302.903 L=13 V={'B': 10, 'A': 8, 'C': 4, 'D': 6} "Ack:CHAT-D-6942259"
+ACK-A-6942271 A->D local_ts=1762160304.104 L=11 V={'A': 10, 'B': 5, 'C': 2, 'D': 5} "Ack:CHAT-D-6942259"
+ACK-C-6942272 C->D local_ts=1762160304.104 L=13 V={'C': 6, 'A': 3, 'B': 5, 'D': 7} "Ack:CHAT-D-6942259"
+ACK-B-6951713 B->C local_ts=1762160312.345 L=17 V={'B': 12, 'A': 8, 'C': 8, 'D': 7} "Ack:CHAT-C-6951702"
+ACK-D-6951713 D->C local_ts=1762160312.345 L=18 V={'D': 12, 'A': 10, 'B': 10, 'C': 9} "Ack:CHAT-C-6951702"
+CHAT-C-6951701 C->A local_ts=1762160313.533 L=14 V={'C': 7, 'A': 3, 'B': 5, 'D': 7} "hello"
+CHAT-C-6951702 C->B local_ts=1762160313.534 L=15 V={'C': 8, 'A': 3, 'B': 5, 'D': 7} "hello"
+CHAT-C-6951702 C->D local_ts=1762160313.534 L=16 V={'C': 9, 'A': 3, 'B': 5, 'D': 7} "hello"
+ACK-A-6951712 A->C local_ts=1762160313.544 L=16 V={'A': 12, 'B': 5, 'C': 7, 'D': 7} "Ack:CHAT-C-6951701"
+
+=== Causal order (Lamport total order) ===
+CHAT-A-6918970 A->B L=1 V={'A': 1, 'B': 0, 'C': 0, 'D': 0} "Hello from A"
+CHAT-A-6919020 A->C L=2 V={'A': 2, 'B': 0, 'C': 0, 'D': 0} "Hello from A"
+CHAT-A-6919071 A->D L=3 V={'A': 3, 'B': 0, 'C': 0, 'D': 0} "Hello from A"
+ACK-B-6918981 B->A L=3 V={'B': 2, 'A': 1, 'C': 0, 'D': 0} "Ack:CHAT-A-6918970"
+CHAT-B-6938436 B->A L=4 V={'B': 3, 'A': 1, 'C': 0, 'D': 0} "hello"
+ACK-C-6919032 C->A L=4 V={'C': 2, 'A': 2, 'B': 0, 'D': 0} "Ack:CHAT-A-6919020"
+CHAT-B-6938436 B->C L=5 V={'B': 4, 'A': 1, 'C': 0, 'D': 0} "hello"
+ACK-D-6919082 D->A L=5 V={'D': 2, 'A': 3, 'B': 0, 'C': 0} "Ack:CHAT-A-6919071"
+CHAT-B-6938436 B->D L=6 V={'B': 5, 'A': 1, 'C': 0, 'D': 0} "hello"
+ACK-C-6938447 C->B L=7 V={'C': 4, 'A': 2, 'B': 4, 'D': 0} "Ack:CHAT-B-6938436"
+ACK-A-6938447 A->B L=8 V={'A': 8, 'B': 3, 'C': 2, 'D': 2} "Ack:CHAT-B-6938436"
+ACK-D-6938448 D->B L=8 V={'D': 4, 'A': 3, 'B': 5, 'C': 0} "Ack:CHAT-B-6938436"
+CHAT-D-6942259 D->A L=9 V={'D': 5, 'A': 3, 'B': 5, 'C': 0} "hello"
+CHAT-D-6942259 D->B L=10 V={'D': 6, 'A': 3, 'B': 5, 'C': 0} "hello"
+ACK-A-6942271 A->D L=11 V={'A': 10, 'B': 5, 'C': 2, 'D': 5} "Ack:CHAT-D-6942259"
+CHAT-D-6942259 D->C L=11 V={'D': 7, 'A': 3, 'B': 5, 'C': 0} "hello"
+ACK-B-6942271 B->D L=13 V={'B': 10, 'A': 8, 'C': 4, 'D': 6} "Ack:CHAT-D-6942259"
+ACK-C-6942272 C->D L=13 V={'C': 6, 'A': 3, 'B': 5, 'D': 7} "Ack:CHAT-D-6942259"
+CHAT-C-6951701 C->A L=14 V={'C': 7, 'A': 3, 'B': 5, 'D': 7} "hello"
+CHAT-C-6951702 C->B L=15 V={'C': 8, 'A': 3, 'B': 5, 'D': 7} "hello"
+ACK-A-6951712 A->C L=16 V={'A': 12, 'B': 5, 'C': 7, 'D': 7} "Ack:CHAT-C-6951701"
+CHAT-C-6951702 C->D L=16 V={'C': 9, 'A': 3, 'B': 5, 'D': 7} "hello"
+ACK-B-6951713 B->C L=17 V={'B': 12, 'A': 8, 'C': 8, 'D': 7} "Ack:CHAT-C-6951702"
+ACK-D-6951713 D->C L=18 V={'D': 12, 'A': 10, 'B': 10, 'C': 9} "Ack:CHAT-C-6951702"
+
+=== Causal order (Vector-clock topological order) ===
+CHAT-A-6918970 A->B V={'A': 1, 'B': 0, 'C': 0, 'D': 0} L=1 "Hello from A"
+CHAT-A-6919020 A->C V={'A': 2, 'B': 0, 'C': 0, 'D': 0} L=2 "Hello from A"
+ACK-B-6918981 B->A V={'B': 2, 'A': 1, 'C': 0, 'D': 0} L=3 "Ack:CHAT-A-6918970"
+CHAT-A-6919071 A->D V={'A': 3, 'B': 0, 'C': 0, 'D': 0} L=3 "Hello from A"
+ACK-C-6919032 C->A V={'C': 2, 'A': 2, 'B': 0, 'D': 0} L=4 "Ack:CHAT-A-6919020"
+CHAT-B-6938436 B->A V={'B': 3, 'A': 1, 'C': 0, 'D': 0} L=4 "hello"
+ACK-D-6919082 D->A V={'D': 2, 'A': 3, 'B': 0, 'C': 0} L=5 "Ack:CHAT-A-6919071"
+CHAT-B-6938436 B->C V={'B': 4, 'A': 1, 'C': 0, 'D': 0} L=5 "hello"
+ACK-A-6938447 A->B V={'A': 8, 'B': 3, 'C': 2, 'D': 2} L=8 "Ack:CHAT-B-6938436"
+CHAT-B-6938436 B->D V={'B': 5, 'A': 1, 'C': 0, 'D': 0} L=6 "hello"
+ACK-C-6938447 C->B V={'C': 4, 'A': 2, 'B': 4, 'D': 0} L=7 "Ack:CHAT-B-6938436"
+ACK-D-6938448 D->B V={'D': 4, 'A': 3, 'B': 5, 'C': 0} L=8 "Ack:CHAT-B-6938436"
+CHAT-D-6942259 D->A V={'D': 5, 'A': 3, 'B': 5, 'C': 0} L=9 "hello"
+ACK-A-6942271 A->D V={'A': 10, 'B': 5, 'C': 2, 'D': 5} L=11 "Ack:CHAT-D-6942259"
+CHAT-D-6942259 D->B V={'D': 6, 'A': 3, 'B': 5, 'C': 0} L=10 "hello"
+ACK-B-6942271 B->D V={'B': 10, 'A': 8, 'C': 4, 'D': 6} L=13 "Ack:CHAT-D-6942259"
+CHAT-D-6942259 D->C V={'D': 7, 'A': 3, 'B': 5, 'C': 0} L=11 "hello"
+ACK-C-6942272 C->D V={'C': 6, 'A': 3, 'B': 5, 'D': 7} L=13 "Ack:CHAT-D-6942259"
+CHAT-C-6951701 C->A V={'C': 7, 'A': 3, 'B': 5, 'D': 7} L=14 "hello"
+ACK-A-6951712 A->C V={'A': 12, 'B': 5, 'C': 7, 'D': 7} L=16 "Ack:CHAT-C-6951701"
+CHAT-C-6951702 C->B V={'C': 8, 'A': 3, 'B': 5, 'D': 7} L=15 "hello"
+ACK-B-6951713 B->C V={'B': 12, 'A': 8, 'C': 8, 'D': 7} L=17 "Ack:CHAT-C-6951702"
+CHAT-C-6951702 C->D V={'C': 9, 'A': 3, 'B': 5, 'D': 7} L=16 "hello"
+ACK-D-6951713 D->C V={'D': 12, 'A': 10, 'B': 10, 'C': 9} L=18 "Ack:CHAT-C-6951702"
+
+=== Vector-clock relations (pairwise) ===
+CHAT-A-6918970 -> ACK-B-6918981 (a happens-before b)
+CHAT-A-6918970 -> CHAT-A-6919020 (a happens-before b)
+CHAT-A-6918970 -> ACK-C-6919032 (a happens-before b)
+CHAT-A-6918970 -> CHAT-A-6919071 (a happens-before b)
+CHAT-A-6918970 -> ACK-D-6919082 (a happens-before b)
+CHAT-A-6918970 -> CHAT-B-6938436 (a happens-before b)
+CHAT-A-6918970 -> CHAT-B-6938436 (a happens-before b)
+CHAT-A-6918970 -> CHAT-B-6938436 (a happens-before b)
+CHAT-A-6918970 -> ACK-A-6938447 (a happens-before b)
+CHAT-A-6918970 -> ACK-C-6938447 (a happens-before b)
+CHAT-A-6918970 -> ACK-D-6938448 (a happens-before b)
+CHAT-A-6918970 -> CHAT-D-6942259 (a happens-before b)
+CHAT-A-6918970 -> CHAT-D-6942259 (a happens-before b)
+CHAT-A-6918970 -> CHAT-D-6942259 (a happens-before b)
+CHAT-A-6918970 -> ACK-B-6942271 (a happens-before b)
+CHAT-A-6918970 -> ACK-C-6942272 (a happens-before b)
+CHAT-A-6918970 -> ACK-A-6942271 (a happens-before b)
+CHAT-A-6918970 -> CHAT-C-6951701 (a happens-before b)
+CHAT-A-6918970 -> CHAT-C-6951702 (a happens-before b)
+CHAT-A-6918970 -> CHAT-C-6951702 (a happens-before b)
+CHAT-A-6918970 -> ACK-A-6951712 (a happens-before b)
+CHAT-A-6918970 -> ACK-D-6951713 (a happens-before b)
+CHAT-A-6918970 -> ACK-B-6951713 (a happens-before b)
+ACK-B-6918981 || CHAT-A-6919020 (concurrent)
+ACK-B-6918981 || ACK-C-6919032 (concurrent)
+ACK-B-6918981 || CHAT-A-6919071 (concurrent)
+ACK-B-6918981 || ACK-D-6919082 (concurrent)
+ACK-B-6918981 -> CHAT-B-6938436 (a happens-before b)
+ACK-B-6918981 -> CHAT-B-6938436 (a happens-before b)
+ACK-B-6918981 -> CHAT-B-6938436 (a happens-before b)
+ACK-B-6918981 -> ACK-A-6938447 (a happens-before b)
+ACK-B-6918981 -> ACK-C-6938447 (a happens-before b)
+ACK-B-6918981 -> ACK-D-6938448 (a happens-before b)
+ACK-B-6918981 -> CHAT-D-6942259 (a happens-before b)
+ACK-B-6918981 -> CHAT-D-6942259 (a happens-before b)
+ACK-B-6918981 -> CHAT-D-6942259 (a happens-before b)
+ACK-B-6918981 -> ACK-B-6942271 (a happens-before b)
+ACK-B-6918981 -> ACK-C-6942272 (a happens-before b)
+ACK-B-6918981 -> ACK-A-6942271 (a happens-before b)
+ACK-B-6918981 -> CHAT-C-6951701 (a happens-before b)
+ACK-B-6918981 -> CHAT-C-6951702 (a happens-before b)
+ACK-B-6918981 -> CHAT-C-6951702 (a happens-before b)
+ACK-B-6918981 -> ACK-A-6951712 (a happens-before b)
+ACK-B-6918981 -> ACK-D-6951713 (a happens-before b)
+ACK-B-6918981 -> ACK-B-6951713 (a happens-before b)
+CHAT-A-6919020 -> ACK-C-6919032 (a happens-before b)
+CHAT-A-6919020 -> CHAT-A-6919071 (a happens-before b)
+CHAT-A-6919020 -> ACK-D-6919082 (a happens-before b)
+CHAT-A-6919020 || CHAT-B-6938436 (concurrent)
+CHAT-A-6919020 || CHAT-B-6938436 (concurrent)
+CHAT-A-6919020 || CHAT-B-6938436 (concurrent)
+CHAT-A-6919020 -> ACK-A-6938447 (a happens-before b)
+CHAT-A-6919020 -> ACK-C-6938447 (a happens-before b)
+CHAT-A-6919020 -> ACK-D-6938448 (a happens-before b)
+CHAT-A-6919020 -> CHAT-D-6942259 (a happens-before b)
+CHAT-A-6919020 -> CHAT-D-6942259 (a happens-before b)
+CHAT-A-6919020 -> CHAT-D-6942259 (a happens-before b)
+CHAT-A-6919020 -> ACK-B-6942271 (a happens-before b)
+CHAT-A-6919020 -> ACK-C-6942272 (a happens-before b)
+CHAT-A-6919020 -> ACK-A-6942271 (a happens-before b)
+CHAT-A-6919020 -> CHAT-C-6951701 (a happens-before b)
+CHAT-A-6919020 -> CHAT-C-6951702 (a happens-before b)
+CHAT-A-6919020 -> CHAT-C-6951702 (a happens-before b)
+CHAT-A-6919020 -> ACK-A-6951712 (a happens-before b)
+CHAT-A-6919020 -> ACK-D-6951713 (a happens-before b)
+CHAT-A-6919020 -> ACK-B-6951713 (a happens-before b)
+ACK-C-6919032 || CHAT-A-6919071 (concurrent)
+ACK-C-6919032 || ACK-D-6919082 (concurrent)
+ACK-C-6919032 || CHAT-B-6938436 (concurrent)
+ACK-C-6919032 || CHAT-B-6938436 (concurrent)
+ACK-C-6919032 || CHAT-B-6938436 (concurrent)
+ACK-C-6919032 -> ACK-A-6938447 (a happens-before b)
+ACK-C-6919032 -> ACK-C-6938447 (a happens-before b)
+ACK-C-6919032 || ACK-D-6938448 (concurrent)
+ACK-C-6919032 || CHAT-D-6942259 (concurrent)
+ACK-C-6919032 || CHAT-D-6942259 (concurrent)
+ACK-C-6919032 || CHAT-D-6942259 (concurrent)
+ACK-C-6919032 -> ACK-B-6942271 (a happens-before b)
+ACK-C-6919032 -> ACK-C-6942272 (a happens-before b)
+ACK-C-6919032 -> ACK-A-6942271 (a happens-before b)
+ACK-C-6919032 -> CHAT-C-6951701 (a happens-before b)
+ACK-C-6919032 -> CHAT-C-6951702 (a happens-before b)
+ACK-C-6919032 -> CHAT-C-6951702 (a happens-before b)
+ACK-C-6919032 -> ACK-A-6951712 (a happens-before b)
+ACK-C-6919032 -> ACK-D-6951713 (a happens-before b)
+ACK-C-6919032 -> ACK-B-6951713 (a happens-before b)
+CHAT-A-6919071 -> ACK-D-6919082 (a happens-before b)
+CHAT-A-6919071 || CHAT-B-6938436 (concurrent)
+CHAT-A-6919071 || CHAT-B-6938436 (concurrent)
+CHAT-A-6919071 || CHAT-B-6938436 (concurrent)
+CHAT-A-6919071 -> ACK-A-6938447 (a happens-before b)
+CHAT-A-6919071 || ACK-C-6938447 (concurrent)
+CHAT-A-6919071 -> ACK-D-6938448 (a happens-before b)
+CHAT-A-6919071 -> CHAT-D-6942259 (a happens-before b)
+CHAT-A-6919071 -> CHAT-D-6942259 (a happens-before b)
+CHAT-A-6919071 -> CHAT-D-6942259 (a happens-before b)
+CHAT-A-6919071 -> ACK-B-6942271 (a happens-before b)
+CHAT-A-6919071 -> ACK-C-6942272 (a happens-before b)
+CHAT-A-6919071 -> ACK-A-6942271 (a happens-before b)
+CHAT-A-6919071 -> CHAT-C-6951701 (a happens-before b)
+CHAT-A-6919071 -> CHAT-C-6951702 (a happens-before b)
+CHAT-A-6919071 -> CHAT-C-6951702 (a happens-before b)
+CHAT-A-6919071 -> ACK-A-6951712 (a happens-before b)
+CHAT-A-6919071 -> ACK-D-6951713 (a happens-before b)
+CHAT-A-6919071 -> ACK-B-6951713 (a happens-before b)
+ACK-D-6919082 || CHAT-B-6938436 (concurrent)
+ACK-D-6919082 || CHAT-B-6938436 (concurrent)
+ACK-D-6919082 || CHAT-B-6938436 (concurrent)
+ACK-D-6919082 -> ACK-A-6938447 (a happens-before b)
+ACK-D-6919082 || ACK-C-6938447 (concurrent)
+ACK-D-6919082 -> ACK-D-6938448 (a happens-before b)
+ACK-D-6919082 -> CHAT-D-6942259 (a happens-before b)
+ACK-D-6919082 -> CHAT-D-6942259 (a happens-before b)
+ACK-D-6919082 -> CHAT-D-6942259 (a happens-before b)
+ACK-D-6919082 -> ACK-B-6942271 (a happens-before b)
+ACK-D-6919082 -> ACK-C-6942272 (a happens-before b)
+ACK-D-6919082 -> ACK-A-6942271 (a happens-before b)
+ACK-D-6919082 -> CHAT-C-6951701 (a happens-before b)
+ACK-D-6919082 -> CHAT-C-6951702 (a happens-before b)
+ACK-D-6919082 -> CHAT-C-6951702 (a happens-before b)
+ACK-D-6919082 -> ACK-A-6951712 (a happens-before b)
+ACK-D-6919082 -> ACK-D-6951713 (a happens-before b)
+ACK-D-6919082 -> ACK-B-6951713 (a happens-before b)
+CHAT-B-6938436 -> CHAT-B-6938436 (a happens-before b)
+CHAT-B-6938436 -> CHAT-B-6938436 (a happens-before b)
+CHAT-B-6938436 -> ACK-A-6938447 (a happens-before b)
+CHAT-B-6938436 -> ACK-C-6938447 (a happens-before b)
+CHAT-B-6938436 -> ACK-D-6938448 (a happens-before b)
+CHAT-B-6938436 -> CHAT-D-6942259 (a happens-before b)
+CHAT-B-6938436 -> CHAT-D-6942259 (a happens-before b)
+CHAT-B-6938436 -> CHAT-D-6942259 (a happens-before b)
+CHAT-B-6938436 -> ACK-B-6942271 (a happens-before b)
+CHAT-B-6938436 -> ACK-C-6942272 (a happens-before b)
+CHAT-B-6938436 -> ACK-A-6942271 (a happens-before b)
+CHAT-B-6938436 -> CHAT-C-6951701 (a happens-before b)
+CHAT-B-6938436 -> CHAT-C-6951702 (a happens-before b)
+CHAT-B-6938436 -> CHAT-C-6951702 (a happens-before b)
+CHAT-B-6938436 -> ACK-A-6951712 (a happens-before b)
+CHAT-B-6938436 -> ACK-D-6951713 (a happens-before b)
+CHAT-B-6938436 -> ACK-B-6951713 (a happens-before b)
+CHAT-B-6938436 -> CHAT-B-6938436 (a happens-before b)
+CHAT-B-6938436 || ACK-A-6938447 (concurrent)
+CHAT-B-6938436 -> ACK-C-6938447 (a happens-before b)
+CHAT-B-6938436 -> ACK-D-6938448 (a happens-before b)
+CHAT-B-6938436 -> CHAT-D-6942259 (a happens-before b)
+CHAT-B-6938436 -> CHAT-D-6942259 (a happens-before b)
+CHAT-B-6938436 -> CHAT-D-6942259 (a happens-before b)
+CHAT-B-6938436 -> ACK-B-6942271 (a happens-before b)
+CHAT-B-6938436 -> ACK-C-6942272 (a happens-before b)
+CHAT-B-6938436 -> ACK-A-6942271 (a happens-before b)
+CHAT-B-6938436 -> CHAT-C-6951701 (a happens-before b)
+CHAT-B-6938436 -> CHAT-C-6951702 (a happens-before b)
+CHAT-B-6938436 -> CHAT-C-6951702 (a happens-before b)
+CHAT-B-6938436 -> ACK-A-6951712 (a happens-before b)
+CHAT-B-6938436 -> ACK-D-6951713 (a happens-before b)
+CHAT-B-6938436 -> ACK-B-6951713 (a happens-before b)
+CHAT-B-6938436 || ACK-A-6938447 (concurrent)
+CHAT-B-6938436 || ACK-C-6938447 (concurrent)
+CHAT-B-6938436 -> ACK-D-6938448 (a happens-before b)
+CHAT-B-6938436 -> CHAT-D-6942259 (a happens-before b)
+CHAT-B-6938436 -> CHAT-D-6942259 (a happens-before b)
+CHAT-B-6938436 -> CHAT-D-6942259 (a happens-before b)
+CHAT-B-6938436 -> ACK-B-6942271 (a happens-before b)
+CHAT-B-6938436 -> ACK-C-6942272 (a happens-before b)
+CHAT-B-6938436 -> ACK-A-6942271 (a happens-before b)
+CHAT-B-6938436 -> CHAT-C-6951701 (a happens-before b)
+CHAT-B-6938436 -> CHAT-C-6951702 (a happens-before b)
+CHAT-B-6938436 -> CHAT-C-6951702 (a happens-before b)
+CHAT-B-6938436 -> ACK-A-6951712 (a happens-before b)
+CHAT-B-6938436 -> ACK-D-6951713 (a happens-before b)
+CHAT-B-6938436 -> ACK-B-6951713 (a happens-before b)
+ACK-A-6938447 || ACK-C-6938447 (concurrent)
+ACK-A-6938447 || ACK-D-6938448 (concurrent)
+ACK-A-6938447 || CHAT-D-6942259 (concurrent)
+ACK-A-6938447 || CHAT-D-6942259 (concurrent)
+ACK-A-6938447 || CHAT-D-6942259 (concurrent)
+ACK-A-6938447 -> ACK-B-6942271 (a happens-before b)
+ACK-A-6938447 || ACK-C-6942272 (concurrent)
+ACK-A-6938447 -> ACK-A-6942271 (a happens-before b)
+ACK-A-6938447 || CHAT-C-6951701 (concurrent)
+ACK-A-6938447 || CHAT-C-6951702 (concurrent)
+ACK-A-6938447 || CHAT-C-6951702 (concurrent)
+ACK-A-6938447 -> ACK-A-6951712 (a happens-before b)
+ACK-A-6938447 -> ACK-D-6951713 (a happens-before b)
+ACK-A-6938447 -> ACK-B-6951713 (a happens-before b)
+ACK-C-6938447 || ACK-D-6938448 (concurrent)
+ACK-C-6938447 || CHAT-D-6942259 (concurrent)
+ACK-C-6938447 || CHAT-D-6942259 (concurrent)
+ACK-C-6938447 || CHAT-D-6942259 (concurrent)
+ACK-C-6938447 -> ACK-B-6942271 (a happens-before b)
+ACK-C-6938447 -> ACK-C-6942272 (a happens-before b)
+ACK-C-6938447 || ACK-A-6942271 (concurrent)
+ACK-C-6938447 -> CHAT-C-6951701 (a happens-before b)
+ACK-C-6938447 -> CHAT-C-6951702 (a happens-before b)
+ACK-C-6938447 -> CHAT-C-6951702 (a happens-before b)
+ACK-C-6938447 -> ACK-A-6951712 (a happens-before b)
+ACK-C-6938447 -> ACK-D-6951713 (a happens-before b)
+ACK-C-6938447 -> ACK-B-6951713 (a happens-before b)
+ACK-D-6938448 -> CHAT-D-6942259 (a happens-before b)
+ACK-D-6938448 -> CHAT-D-6942259 (a happens-before b)
+ACK-D-6938448 -> CHAT-D-6942259 (a happens-before b)
+ACK-D-6938448 -> ACK-B-6942271 (a happens-before b)
+ACK-D-6938448 -> ACK-C-6942272 (a happens-before b)
+ACK-D-6938448 -> ACK-A-6942271 (a happens-before b)
+ACK-D-6938448 -> CHAT-C-6951701 (a happens-before b)
+ACK-D-6938448 -> CHAT-C-6951702 (a happens-before b)
+ACK-D-6938448 -> CHAT-C-6951702 (a happens-before b)
+ACK-D-6938448 -> ACK-A-6951712 (a happens-before b)
+ACK-D-6938448 -> ACK-D-6951713 (a happens-before b)
+ACK-D-6938448 -> ACK-B-6951713 (a happens-before b)
+CHAT-D-6942259 -> CHAT-D-6942259 (a happens-before b)
+CHAT-D-6942259 -> CHAT-D-6942259 (a happens-before b)
+CHAT-D-6942259 -> ACK-B-6942271 (a happens-before b)
+CHAT-D-6942259 -> ACK-C-6942272 (a happens-before b)
+CHAT-D-6942259 -> ACK-A-6942271 (a happens-before b)
+CHAT-D-6942259 -> CHAT-C-6951701 (a happens-before b)
+CHAT-D-6942259 -> CHAT-C-6951702 (a happens-before b)
+CHAT-D-6942259 -> CHAT-C-6951702 (a happens-before b)
+CHAT-D-6942259 -> ACK-A-6951712 (a happens-before b)
+CHAT-D-6942259 -> ACK-D-6951713 (a happens-before b)
+CHAT-D-6942259 -> ACK-B-6951713 (a happens-before b)
+CHAT-D-6942259 -> CHAT-D-6942259 (a happens-before b)
+CHAT-D-6942259 -> ACK-B-6942271 (a happens-before b)
+CHAT-D-6942259 -> ACK-C-6942272 (a happens-before b)
+CHAT-D-6942259 || ACK-A-6942271 (concurrent)
+CHAT-D-6942259 -> CHAT-C-6951701 (a happens-before b)
+CHAT-D-6942259 -> CHAT-C-6951702 (a happens-before b)
+CHAT-D-6942259 -> CHAT-C-6951702 (a happens-before b)
+CHAT-D-6942259 -> ACK-A-6951712 (a happens-before b)
+CHAT-D-6942259 -> ACK-D-6951713 (a happens-before b)
+CHAT-D-6942259 -> ACK-B-6951713 (a happens-before b)
+CHAT-D-6942259 || ACK-B-6942271 (concurrent)
+CHAT-D-6942259 -> ACK-C-6942272 (a happens-before b)
+CHAT-D-6942259 || ACK-A-6942271 (concurrent)
+CHAT-D-6942259 -> CHAT-C-6951701 (a happens-before b)
+CHAT-D-6942259 -> CHAT-C-6951702 (a happens-before b)
+CHAT-D-6942259 -> CHAT-C-6951702 (a happens-before b)
+CHAT-D-6942259 -> ACK-A-6951712 (a happens-before b)
+CHAT-D-6942259 -> ACK-D-6951713 (a happens-before b)
+CHAT-D-6942259 -> ACK-B-6951713 (a happens-before b)
+ACK-B-6942271 || ACK-C-6942272 (concurrent)
+ACK-B-6942271 || ACK-A-6942271 (concurrent)
+ACK-B-6942271 || CHAT-C-6951701 (concurrent)
+ACK-B-6942271 || CHAT-C-6951702 (concurrent)
+ACK-B-6942271 || CHAT-C-6951702 (concurrent)
+ACK-B-6942271 || ACK-A-6951712 (concurrent)
+ACK-B-6942271 -> ACK-D-6951713 (a happens-before b)
+ACK-B-6942271 -> ACK-B-6951713 (a happens-before b)
+ACK-C-6942272 || ACK-A-6942271 (concurrent)
+ACK-C-6942272 -> CHAT-C-6951701 (a happens-before b)
+ACK-C-6942272 -> CHAT-C-6951702 (a happens-before b)
+ACK-C-6942272 -> CHAT-C-6951702 (a happens-before b)
+ACK-C-6942272 -> ACK-A-6951712 (a happens-before b)
+ACK-C-6942272 -> ACK-D-6951713 (a happens-before b)
+ACK-C-6942272 -> ACK-B-6951713 (a happens-before b)
+ACK-A-6942271 || CHAT-C-6951701 (concurrent)
+ACK-A-6942271 || CHAT-C-6951702 (concurrent)
+ACK-A-6942271 || CHAT-C-6951702 (concurrent)
+ACK-A-6942271 -> ACK-A-6951712 (a happens-before b)
+ACK-A-6942271 -> ACK-D-6951713 (a happens-before b)
+ACK-A-6942271 || ACK-B-6951713 (concurrent)
+CHAT-C-6951701 -> CHAT-C-6951702 (a happens-before b)
+CHAT-C-6951701 -> CHAT-C-6951702 (a happens-before b)
+CHAT-C-6951701 -> ACK-A-6951712 (a happens-before b)
+CHAT-C-6951701 -> ACK-D-6951713 (a happens-before b)
+CHAT-C-6951701 -> ACK-B-6951713 (a happens-before b)
+CHAT-C-6951702 -> CHAT-C-6951702 (a happens-before b)
+CHAT-C-6951702 || ACK-A-6951712 (concurrent)
+CHAT-C-6951702 -> ACK-D-6951713 (a happens-before b)
+CHAT-C-6951702 -> ACK-B-6951713 (a happens-before b)
+CHAT-C-6951702 || ACK-A-6951712 (concurrent)
+CHAT-C-6951702 -> ACK-D-6951713 (a happens-before b)
+CHAT-C-6951702 || ACK-B-6951713 (concurrent)
+ACK-A-6951712 || ACK-D-6951713 (concurrent)
+ACK-A-6951712 || ACK-B-6951713 (concurrent)
+ACK-D-6951713 || ACK-B-6951713 (concurrent)
